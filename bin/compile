@@ -77,8 +77,6 @@ echo "export MAGICK_CONFIGURE_PATH=$RUNTIME_INSTALL_PATH" >> $PROFILE_PATH
 echo "-----> SET IMAGEMAGICK++ LIB"
 echo "export PATH=/app/vendor/imagemagick/bin/Magick++-config:\$PATH" >> $PROFILE_PATH
 echo "export PKG_CONFIG_PATH=/app/vendor/imagemagick/lib/pkgconfig:\$PKG_CONFIG_PATH" >> $PROFILE_PATH
-ln -s /app/vendor/imagemagick/bin/Magick++-config /usr/local/bin/
-ln -s /app/vendor/imagemagick/bin/Magick++-config /usr/bin/
 
 # DOWNLOAD_URL="http://www.imagemagick.org/download/ImageMagick-6.9.2-0.tar.gz"
 
